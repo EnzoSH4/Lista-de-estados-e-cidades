@@ -1,0 +1,10 @@
+Hi! In order for you to run this lil project, just open the index.html!
+
+I used:
+-JavaScript
+-HTML & CSS
+-BOOTSTRAP
+-IBGE (api)
+
+---------------------------------
+The goal of this project is to use the IBGE api to search for a state from Brazil and then it's cities.

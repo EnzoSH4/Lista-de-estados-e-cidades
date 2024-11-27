@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta de Cidades</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.3.3-dist\css\bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+     <!-- navbar -->
+     <div class="navbar"><nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="logo navbar-brand" href="index.html"><img src="img/Logo.png"> Pesquisas Locais</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <form class="d-flex" role="search" method="get" action="pesquisa.html">
+            <input class="form-control me-2" type="search" id="pesquisa" name="pesquisa" placeholder="Procure um estado..." aria-label="Search">
+            <button class="btn btn-outline-success" id="searchBtn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+            </svg></button>
+          </form>
+        </div>
+    </nav></div>
+    <!-- pagina -->
+    <div class="container tableDiv">
+      <h1 class="title">Consulta de Cidades</h1>
+      <div class="linha"></div>
+      <div class="contentTable">
+         <div class="row col-12" id="cidadesTable"></div>
+      </div>
+      <div class="linha"></div>
+      <a class="btn" href="index.html">Voltar</a>
+    </div>
+
+    <a class="by">By: Enzo Hingst</a>
+  </body>
+  <script src="js/cidade.js"></script>
+</html>
